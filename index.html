@@ -39,6 +39,27 @@
 
 
 </body>
-<script src="/calculator/script.js"></script>
+<script>
+    <script>
+    function displayvalue(val){
+    document.getElementById("display").value =document.getElementById("display").value + val;
+
+}
+
+
+function clearDisplay() {
+    document.getElementById("display").value=" " ;
+}
+
+
+function isequalto(){
+      
+var given=document.getElementById("display").value;
+var output= eval(given);
+
+document.getElementById("display").value= output;
+}
+</script>
+</script>
 </html>
 
